@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 갤러리</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .wrap {
+            width: 1200px;
+            margin: 50px auto;
+        }
+
+        .line {
+            display: flex;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+
+        .box {
+            flex: 1;
+            background: pink;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrap">
+
+        <!-- 1줄 (3개) -->
+        <div class="line">
+            <div class="box"><img src="m01.jpg" alt=""></div>
+            <div class="box"><img src="m02.jpg" alt=""></div>
+            <div class="box"><img src="m03.jpg" alt=""></div>
+        </div>
+
+        <!-- 2줄 (4개) -->
+        <div class="line">
+            <div class="box"><img src="m04.jpg" alt=""></div>
+            <div class="box"><img src="m05.jpg" alt=""></div>
+            <div class="box"><img src="m06.jpg" alt=""></div>
+            <div class="box"><img src="m07.jpg" alt=""></div>
+        </div>
+
+        <!-- 3줄 (5개) -->
+        <div class="line">
+            <div class="box"><img src="m08.jpg" alt=""></div>
+            <div class="box"><img src="m09.jpg" alt=""></div>
+            <div class="box"><img src="m10.jpg" alt=""></div>
+            <div class="box"><img src="m11.jpg" alt=""></div>
+            <div class="box"><img src="m12.jpg" alt=""></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
